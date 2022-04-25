@@ -141,7 +141,7 @@ promptUser()
     return generatePage(portfolioData);
   })
   .then(pageHTML => {
-    return writeFile(patgeHTML);
+    return writeFile(pageHTML);
   })
   .then(writeFileResponse => {
     console.log(writeFileResponse);
